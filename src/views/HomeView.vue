@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import ProgressBar from '@/components/ProgressBar.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <ProgressBar />
   </main>
 </template>
