@@ -5,7 +5,7 @@ const power = ref(78)
 </script>
 
 <template>
-  <div class="container">
+  <div class="ProgressBar">
     <h1><strong>Progress</strong></h1>
     <v-progress-linear v-model="power" color="amber" height="25">
       <strong>{{ Math.ceil(power) }}%(Done 1 out of 2)</strong>
@@ -13,10 +13,11 @@ const power = ref(78)
   </div>
 </template>
 
-<style scoped>
-.container {
+<style lang="scss" scoped>
+.ProgressBar {
   border: 1px solid rgb(242, 242, 242);
   border-radius: 5px;
   padding: 1rem;
+  background-color: white;
 }
 </style>
