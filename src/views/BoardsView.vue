@@ -5,7 +5,7 @@ const boards = ref(['Pending', 'Processing', 'Done'])
 </script>
 
 <template>
-  <v-row>
+  <v-row class="justify-space-between">
     <BoardCm v-for="board in boards" :key="board" :title="board"> </BoardCm>
   </v-row>
 </template>

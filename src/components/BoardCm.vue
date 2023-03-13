@@ -25,6 +25,7 @@ const all = ref(3)
   </v-card>
 </template>
 <style scoped>
+/* TODO style hast effect on TaskCm */
 :deep(.v-card) {
   text-align: center;
 }
